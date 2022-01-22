@@ -43,7 +43,3 @@ Build a react app with
    That was easy!
 
 I started with anything I could do that didn't involve actually learning more about sorting algorithms.
-
-Typical me. Now back to buisness.
-
-Breaking live update at 2:43pm... cdip.dev is now live! Now back to sorting...
