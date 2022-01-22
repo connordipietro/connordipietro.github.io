@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Connor DiPietro</title>
-    <link>http://example.org/</link>
+    <link>http://cdip.dev/</link>
     <description>Recent content on Connor DiPietro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Jan 2022 11:32:17 -0500</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jan 2022 11:32:17 -0500</lastBuildDate><atom:link href="http://cdip.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello Word</title>
-      <link>http://example.org/posts/hello-word/</link>
+      <link>http://cdip.dev/posts/hello-word/</link>
       <pubDate>Sat, 22 Jan 2022 11:32:17 -0500</pubDate>
       
-      <guid>http://example.org/posts/hello-word/</guid>
+      <guid>http://cdip.dev/posts/hello-word/</guid>
       <description>👋 🌎 ❤️ </description>
     </item>
     
