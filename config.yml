@@ -1,5 +1,5 @@
 baseURL: http://example.org/
 languageCode: en-us
 title: Connor DiPietro
-theme: "PaperMod"
+theme: PaperMod
 publishdir: docs
