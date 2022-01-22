@@ -44,11 +44,11 @@ params:
   homeInfoParams:
     Title: Hey, I'm Connor. 👋
     Content: >
-        - Developer 👨‍💻 **|** Mover  ⛷  🧗‍♂️ **|** Tinkerer ⚗️ **|** US Based 🇺🇸  
+        - Curious Developer 👨‍💻 **|** Mover 🧗‍♂️ ⛷ **|** US Based  🇺🇸        
 
         - <br>
         
-        - Welcome to my little site to share and learn 🧠. 
+        - Welcome to my little site to share and learn 🧠
   socialIcons:
     - name: linkedin
       url: https://linkedin.com/in/connorjdipietro
@@ -110,6 +110,4 @@ menu:
     - name: Tags
       url: tags/
       weight: 3
-    - name: Search
-      url: search/
-      weight: 4
+
