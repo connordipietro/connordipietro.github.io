@@ -11,7 +11,13 @@
     <loc>http://example.org/posts/</loc>
     <lastmod>2022-01-22T11:32:17-05:00</lastmod>
   </url><url>
+    <loc>http://example.org/archives/</loc>
+  </url><url>
     <loc>http://example.org/categories/</loc>
+  </url><url>
+    <loc>http://example.org/search/</loc>
+  </url><url>
+    <loc>http://example.org/series/</loc>
   </url><url>
     <loc>http://example.org/tags/</loc>
   </url>
