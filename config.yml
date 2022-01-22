@@ -3,3 +3,4 @@ languageCode: en-us
 title: Connor DiPietro
 theme: PaperMod
 publishdir: docs
+env: production
