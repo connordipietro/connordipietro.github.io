@@ -44,18 +44,16 @@ params:
   homeInfoParams:
     Title: Hey, I'm Connor. 👋
     Content: >
-        - Curious Developer 👨‍💻 **|** Mover 🧗‍♂️ ⛷ **|** US Based  🇺🇸        
+        - Curious Developer 👨‍💻 🤸 🧗‍♂️ ⛷ 👨‍🚒      
 
         - <br>
-        
-        - Welcome to my little site to share and learn 🧠
   socialIcons:
     - name: linkedin
       url: https://linkedin.com/in/connorjdipietro
     - name: github
       url: https://github.com/connordipietro
     - name: email
-      url:
+      url: mailto:con@cdip.dev
 
   outputs:
     home:

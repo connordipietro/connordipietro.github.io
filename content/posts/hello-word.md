@@ -7,4 +7,4 @@ showtoc: false
 
 # 👋 🌎 ❤️
 
-Is this thing on??
+Is this thing on?
