@@ -5,6 +5,6 @@ draft: false
 showtoc: false
 ---
 
-# 👋 🌎 ❤️
+# 🌎 ❤️
 
 Is this thing on?

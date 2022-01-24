@@ -25,7 +25,13 @@ In my journey to finally understand Data Structures & Algorithms (for real this 
 
 #### **_Sorting algorithm [ASMR](https://www.youtube.com/results?search_query=sorting+algorithm+asmr) has entered the chat_**.
 
-Thanks and credit to [sort.bullinger.dev](sort.bullinger.dev) for much of the inspiration behind this project.
+Thanks and credit to [sort.bullinger.dev](sort.bullinger.dev) which directly inspred this project.
+
+I tried at first to create this on my own with no outside reference. Then I read through the inspiration source code and my mind was blown.
+
+There was a lot going on. Web Workers. Typescript. New Web APIs. Smart, lean code doing it's job beautifully. It was beautiful.
+
+I decided to take the long road on my way to DS&A mastery, and here's some of what I learned.
 
 ## The Plan 👻
 
@@ -38,6 +44,8 @@ Light, readable, vanilla JS/HTMl/CSS 🤤
   - the number of operations per second.
 
 - A pretty and minimal UI that visualizes the sort with audio feedback.
+
+- Study the source code and understand each part. Understand the concepts beyond their usage here, and really get a grasp on some of the fundamentals of web development that they work with, beyond just rendering a
 
 ## Day One
 
@@ -103,10 +111,33 @@ From MDN [herself](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRender
 We can draw something, but how can we style it?
 
 `ctx.fillStyle = color / gradient / pattern;`
+
 Okay! We can work with this. We wanto to fill our 2d canvas, right?
 
 ![sort sim screenshot](/sortsim1.png)
 
 Now we are getting somewhere.
 
-I can toggle the state of a 'bar' and change its color individually. That should be a good place to start.
+2. **Web Worker API**
+
+I mean... 👰
+
+> Web Workers makes it possible to run a script operation in a background thread separate from the main execution thread of a web application. The advantage of this is that laborious processing can be performed in a separate thread, allowing the main (usually the UI) thread to run without being blocked/slowed down.
+
+🔑
+
+> Service Workers essentially act as proxy servers that sit between web applications, the browser, and the network (when available). They are intended, among other things, to enable the creation of effective offline experiences, intercept network requests and take appropriate action based on whether the network is available, and update assets residing on the server. They will also allow access to push notifications and background sync APIs.
+
+Okay, so that's all nice, but how does this help us with sorting?
+
+Next, let's take a look at [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
+
+This project is taking me down a a rabbit hole that's a little bit deeper than I had planned for this weekend, but that's okay and we are going to keep going.
+
+> The Proxy object enables you to create a proxy for another object, which can intercept and redefine fundamental operations for that object.
+
+> A Proxy is created with two parameters:
+>
+> target: the original object which you want to proxy
+>
+> handler: an object that defines which operations will be intercepted and how to redefine intercepted operations.
